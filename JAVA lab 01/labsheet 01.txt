@@ -1,0 +1,53 @@
+M.V.D.Perera
+28710
+                                                                                                  Practical 01
+Part 01
+ package com.mycompany.item;
+ public class Item {
+ private int location;
+ private String description;
+ 
+ public Item(int location,String description){
+ this.location=location;
+ this.description=description;
+ }
+ public void setlocation(int location){
+ this.location =location;
+ }
+ public void setdescription(String description){
+ this.description=description;
+ }
+ public int getlocation()
+ { return location;
+ }
+ public String getdescription(){
+ return description;
+ }
+ }
+ package com.mycompany.item;
+ public class Monster extends Item {
+ 
+ public Monster(int location,String description){
+ super (location,description);
+ }
+}
+Part 02
+01. b) super
+02. b) private
+03. b) packages 
+04. a) import.pkg
+05. c) .charAt()
+06. d) length()
+Part 03
+1. Real-world objects contain attributes and behaviours.
+2. A software object's state is stored in instance variables.
+3. A software object's behaviour is exposed through methods.
+4. Hiding internal data from the outside world and accessing it only through 
+publicly exposed methods is known as data encapsulation.
+5. A blueprint for a software object is called a class.
+6. Common behaviour can be defined in a superclass and inherited into a 
+subclass using the extends keyword.
+7. A collection of methods with no implementation is called an interface.
+8. A namespace that organizes classes and interfaces by functionality is called a 
+package.
+9. The term API stands for Application Programming Interface.
